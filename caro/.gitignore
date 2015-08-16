@@ -1,0 +1,6 @@
+.idea/*
+!.idex/.name
+!.idex/caro.iml
+!.idex/course_service.xml
+!.idex/modules.xml
+**/__pycache__

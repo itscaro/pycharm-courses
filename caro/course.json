@@ -1,0 +1,20 @@
+{
+  "lessons": [
+    {
+      "name": "lesson1",
+      "task_list": [
+        {
+          "name": "task1",
+          "task_files": {
+            "file1.py": {
+              "task_windows": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "description": "Bài cho mèo",
+  "name": "Pa Mèo",
+  "author": "Minh-Quan TRAN"
+}
