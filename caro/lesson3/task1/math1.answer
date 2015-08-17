@@ -1,0 +1,17 @@
+def fibo(n):
+    if n == 1:
+        return 1
+    elif n == 2:
+        return 2
+    else:
+        return fibo(n-1) + fibo(n-2)
+
+until = int(input("Last number in the fibonacci must be strictly smaller than: "))
+
+i = 1;
+fibonacci = []
+while fibo(i) < until:
+    fibonacci.append(fibo(i))
+    i += 1
+
+print(fibonacci)

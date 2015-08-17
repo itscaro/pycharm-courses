@@ -1239,6 +1239,203 @@
               </map>
             </option>
           </Lesson>
+          <Lesson>
+            <option name="index" value="3" />
+            <option name="name" value="Some maths" />
+            <option name="task_list">
+              <list>
+                <Task>
+                  <option name="index" value="1" />
+                  <option name="name" value="Fibonacci" />
+                  <option name="task_files">
+                    <map>
+                      <entry key="math1.py">
+                        <value>
+                          <TaskFile>
+                            <option name="task_windows">
+                              <list>
+                                <TaskWindow>
+                                  <option name="index" value="1" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="1" />
+                                  <option name="replacementLength" value="112" />
+                                  <option name="start" value="0" />
+                                  <option name="taskText" value="Calculate the nth number in the Fibonacci sequence" />
+                                  <option name="line" value="1" />
+                                  <option name="start" value="0" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="    if n == 1:&#10;        return 1&#10;    elif n == 2:&#10;        return 2&#10;    else:&#10;        return fibo(n-1) + fibo(n-2)" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Calculate the nth number in the Fibonacci sequence" />
+                                  <option name="myReplacementLength" value="112" />
+                                  <option name="myIndex" value="1" />
+                                </TaskWindow>
+                                <TaskWindow>
+                                  <option name="index" value="2" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="10" />
+                                  <option name="replacementLength" value="103" />
+                                  <option name="start" value="0" />
+                                  <option name="taskText" value="Print out the number in a list" />
+                                  <option name="line" value="10" />
+                                  <option name="start" value="0" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="i = 1;&#10;while fibo(i) &lt; until:&#10;    print(fibo(i))&#10;    i += 1" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Print out the number in a list" />
+                                  <option name="myReplacementLength" value="103" />
+                                  <option name="myIndex" value="2" />
+                                </TaskWindow>
+                              </list>
+                            </option>
+                            <option name="myIndex" value="1" />
+                          </TaskFile>
+                        </value>
+                      </entry>
+                    </map>
+                  </option>
+                  <option name="myIndex" value="1" />
+                </Task>
+                <Task>
+                  <option name="index" value="2" />
+                  <option name="name" value="Look and say sequence" />
+                  <option name="task_files">
+                    <map>
+                      <entry key="math2.py">
+                        <value>
+                          <TaskFile>
+                            <option name="task_windows">
+                              <list>
+                                <TaskWindow>
+                                  <option name="index" value="1" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="1" />
+                                  <option name="replacementLength" value="657" />
+                                  <option name="start" value="4" />
+                                  <option name="taskText" value="Given the current number, say the next number" />
+                                  <option name="line" value="1" />
+                                  <option name="start" value="4" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="n_as_str = str(n)&#10;    length = len(n_as_str)&#10;&#10;    final = ''&#10;&#10;    i = 1&#10;    current = n_as_str[0]&#10;    currentCounter = 0&#10;    while i &lt;= length:&#10;        # Change to another digit&#10;        if current != n_as_str[i-1]:&#10;            final += str(currentCounter) + str(current)&#10;&#10;            currentCounter = 1&#10;            current = n_as_str[i-1]&#10;            if i == length:&#10;                final += str(currentCounter) + str(current)&#10;        # Still the same digit&#10;        else:&#10;            currentCounter += 1&#10;            if i == length: # if there is not any digit&#10;                final += str(currentCounter) + str(current)&#10;        i += 1&#10;&#10;    return final" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Given the current number, say the next number" />
+                                  <option name="myReplacementLength" value="657" />
+                                  <option name="myIndex" value="1" />
+                                </TaskWindow>
+                              </list>
+                            </option>
+                            <option name="myIndex" value="2" />
+                          </TaskFile>
+                        </value>
+                      </entry>
+                    </map>
+                  </option>
+                  <option name="myIndex" value="2" />
+                </Task>
+              </list>
+            </option>
+            <option name="myIndex" value="3" />
+            <option name="myTasksMap">
+              <map>
+                <entry key="task1">
+                  <value>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="Fibonacci" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="math1.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="1" />
+                                      <option name="replacementLength" value="112" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" value="Calculate the nth number in the Fibonacci sequence" />
+                                      <option name="line" value="1" />
+                                      <option name="start" value="0" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="    if n == 1:&#10;        return 1&#10;    elif n == 2:&#10;        return 2&#10;    else:&#10;        return fibo(n-1) + fibo(n-2)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Calculate the nth number in the Fibonacci sequence" />
+                                      <option name="myReplacementLength" value="112" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="2" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="10" />
+                                      <option name="replacementLength" value="103" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" value="Print out the number in a list" />
+                                      <option name="line" value="10" />
+                                      <option name="start" value="0" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="i = 1;&#10;while fibo(i) &lt; until:&#10;    print(fibo(i))&#10;    i += 1" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Print out the number in a list" />
+                                      <option name="myReplacementLength" value="103" />
+                                      <option name="myIndex" value="2" />
+                                    </TaskWindow>
+                                  </list>
+                                </option>
+                                <option name="myIndex" value="1" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="1" />
+                    </Task>
+                  </value>
+                </entry>
+                <entry key="task2">
+                  <value>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="Look and say sequence" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="math2.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="1" />
+                                      <option name="replacementLength" value="657" />
+                                      <option name="start" value="4" />
+                                      <option name="taskText" value="Given the current number, say the next number" />
+                                      <option name="line" value="1" />
+                                      <option name="start" value="4" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="n_as_str = str(n)&#10;    length = len(n_as_str)&#10;&#10;    final = ''&#10;&#10;    i = 1&#10;    current = n_as_str[0]&#10;    currentCounter = 0&#10;    while i &lt;= length:&#10;        # Change to another digit&#10;        if current != n_as_str[i-1]:&#10;            final += str(currentCounter) + str(current)&#10;&#10;            currentCounter = 1&#10;            current = n_as_str[i-1]&#10;            if i == length:&#10;                final += str(currentCounter) + str(current)&#10;        # Still the same digit&#10;        else:&#10;            currentCounter += 1&#10;            if i == length: # if there is not any digit&#10;                final += str(currentCounter) + str(current)&#10;        i += 1&#10;&#10;    return final" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Given the current number, say the next number" />
+                                      <option name="myReplacementLength" value="657" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                  </list>
+                                </option>
+                                <option name="myIndex" value="2" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="2" />
+                    </Task>
+                  </value>
+                </entry>
+              </map>
+            </option>
+          </Lesson>
         </list>
       </option>
       <option name="description" value="Bài cho mèo" />
@@ -2478,6 +2675,207 @@
                             </map>
                           </option>
                           <option name="myIndex" value="7" />
+                        </Task>
+                      </value>
+                    </entry>
+                  </map>
+                </option>
+              </Lesson>
+            </value>
+          </entry>
+          <entry key="lesson3">
+            <value>
+              <Lesson>
+                <option name="index" value="3" />
+                <option name="name" value="Some maths" />
+                <option name="task_list">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="Fibonacci" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="math1.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="1" />
+                                      <option name="replacementLength" value="112" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" value="Calculate the nth number in the Fibonacci sequence" />
+                                      <option name="line" value="1" />
+                                      <option name="start" value="0" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="    if n == 1:&#10;        return 1&#10;    elif n == 2:&#10;        return 2&#10;    else:&#10;        return fibo(n-1) + fibo(n-2)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Calculate the nth number in the Fibonacci sequence" />
+                                      <option name="myReplacementLength" value="112" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="2" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="10" />
+                                      <option name="replacementLength" value="103" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" value="Print out the number in a list" />
+                                      <option name="line" value="10" />
+                                      <option name="start" value="0" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="i = 1;&#10;while fibo(i) &lt; until:&#10;    print(fibo(i))&#10;    i += 1" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Print out the number in a list" />
+                                      <option name="myReplacementLength" value="103" />
+                                      <option name="myIndex" value="2" />
+                                    </TaskWindow>
+                                  </list>
+                                </option>
+                                <option name="myIndex" value="1" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="1" />
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="Look and say sequence" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="math2.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="1" />
+                                      <option name="replacementLength" value="657" />
+                                      <option name="start" value="4" />
+                                      <option name="taskText" value="Given the current number, say the next number" />
+                                      <option name="line" value="1" />
+                                      <option name="start" value="4" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="n_as_str = str(n)&#10;    length = len(n_as_str)&#10;&#10;    final = ''&#10;&#10;    i = 1&#10;    current = n_as_str[0]&#10;    currentCounter = 0&#10;    while i &lt;= length:&#10;        # Change to another digit&#10;        if current != n_as_str[i-1]:&#10;            final += str(currentCounter) + str(current)&#10;&#10;            currentCounter = 1&#10;            current = n_as_str[i-1]&#10;            if i == length:&#10;                final += str(currentCounter) + str(current)&#10;        # Still the same digit&#10;        else:&#10;            currentCounter += 1&#10;            if i == length: # if there is not any digit&#10;                final += str(currentCounter) + str(current)&#10;        i += 1&#10;&#10;    return final" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Given the current number, say the next number" />
+                                      <option name="myReplacementLength" value="657" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                  </list>
+                                </option>
+                                <option name="myIndex" value="2" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="2" />
+                    </Task>
+                  </list>
+                </option>
+                <option name="myIndex" value="3" />
+                <option name="myTasksMap">
+                  <map>
+                    <entry key="task1">
+                      <value>
+                        <Task>
+                          <option name="index" value="1" />
+                          <option name="name" value="Fibonacci" />
+                          <option name="task_files">
+                            <map>
+                              <entry key="math1.py">
+                                <value>
+                                  <TaskFile>
+                                    <option name="task_windows">
+                                      <list>
+                                        <TaskWindow>
+                                          <option name="index" value="1" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="1" />
+                                          <option name="replacementLength" value="112" />
+                                          <option name="start" value="0" />
+                                          <option name="taskText" value="Calculate the nth number in the Fibonacci sequence" />
+                                          <option name="line" value="1" />
+                                          <option name="start" value="0" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="    if n == 1:&#10;        return 1&#10;    elif n == 2:&#10;        return 2&#10;    else:&#10;        return fibo(n-1) + fibo(n-2)" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Calculate the nth number in the Fibonacci sequence" />
+                                          <option name="myReplacementLength" value="112" />
+                                          <option name="myIndex" value="1" />
+                                        </TaskWindow>
+                                        <TaskWindow>
+                                          <option name="index" value="2" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="10" />
+                                          <option name="replacementLength" value="103" />
+                                          <option name="start" value="0" />
+                                          <option name="taskText" value="Print out the number in a list" />
+                                          <option name="line" value="10" />
+                                          <option name="start" value="0" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="i = 1;&#10;while fibo(i) &lt; until:&#10;    print(fibo(i))&#10;    i += 1" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Print out the number in a list" />
+                                          <option name="myReplacementLength" value="103" />
+                                          <option name="myIndex" value="2" />
+                                        </TaskWindow>
+                                      </list>
+                                    </option>
+                                    <option name="myIndex" value="1" />
+                                  </TaskFile>
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="myIndex" value="1" />
+                        </Task>
+                      </value>
+                    </entry>
+                    <entry key="task2">
+                      <value>
+                        <Task>
+                          <option name="index" value="2" />
+                          <option name="name" value="Look and say sequence" />
+                          <option name="task_files">
+                            <map>
+                              <entry key="math2.py">
+                                <value>
+                                  <TaskFile>
+                                    <option name="task_windows">
+                                      <list>
+                                        <TaskWindow>
+                                          <option name="index" value="1" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="1" />
+                                          <option name="replacementLength" value="657" />
+                                          <option name="start" value="4" />
+                                          <option name="taskText" value="Given the current number, say the next number" />
+                                          <option name="line" value="1" />
+                                          <option name="start" value="4" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="n_as_str = str(n)&#10;    length = len(n_as_str)&#10;&#10;    final = ''&#10;&#10;    i = 1&#10;    current = n_as_str[0]&#10;    currentCounter = 0&#10;    while i &lt;= length:&#10;        # Change to another digit&#10;        if current != n_as_str[i-1]:&#10;            final += str(currentCounter) + str(current)&#10;&#10;            currentCounter = 1&#10;            current = n_as_str[i-1]&#10;            if i == length:&#10;                final += str(currentCounter) + str(current)&#10;        # Still the same digit&#10;        else:&#10;            currentCounter += 1&#10;            if i == length: # if there is not any digit&#10;                final += str(currentCounter) + str(current)&#10;        i += 1&#10;&#10;    return final" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Given the current number, say the next number" />
+                                          <option name="myReplacementLength" value="657" />
+                                          <option name="myIndex" value="1" />
+                                        </TaskWindow>
+                                      </list>
+                                    </option>
+                                    <option name="myIndex" value="2" />
+                                  </TaskFile>
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="myIndex" value="2" />
                         </Task>
                       </value>
                     </entry>

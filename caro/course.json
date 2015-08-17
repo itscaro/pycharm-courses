@@ -245,6 +245,47 @@
           }
         }
       ]
+    },
+    {
+      "name": "Some maths",
+      "task_list": [
+        {
+          "name": "Fibonacci",
+          "task_files": {
+            "math1.py": {
+              "task_windows": [
+                {
+                  "line": 1,
+                  "start": 0,
+                  "possible_answer": "    if n \u003d\u003d 1:\n        return 1\n    elif n \u003d\u003d 2:\n        return 2\n    else:\n        return fibo(n-1) + fibo(n-2)",
+                  "length": 50
+                },
+                {
+                  "line": 5,
+                  "start": 0,
+                  "possible_answer": "i \u003d 1;\nwhile fibo(i) \u003c until:\n    print(fibo(i))\n    i +\u003d 1",
+                  "length": 30
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Look and say sequence",
+          "task_files": {
+            "math2.py": {
+              "task_windows": [
+                {
+                  "line": 1,
+                  "start": 4,
+                  "possible_answer": "n_as_str \u003d str(n)\n    length \u003d len(n_as_str)\n\n    final \u003d \u0027\u0027\n\n    i \u003d 1\n    current \u003d n_as_str[0]\n    currentCounter \u003d 0\n    while i \u003c\u003d length:\n        # Change to another digit\n        if current !\u003d n_as_str[i-1]:\n            final +\u003d str(currentCounter) + str(current)\n\n            currentCounter \u003d 1\n            current \u003d n_as_str[i-1]\n            if i \u003d\u003d length:\n                final +\u003d str(currentCounter) + str(current)\n        # Still the same digit\n        else:\n            currentCounter +\u003d 1\n            if i \u003d\u003d length: # if there is not any digit\n                final +\u003d str(currentCounter) + str(current)\n        i +\u003d 1\n\n    return final",
+                  "length": 45
+                }
+              ]
+            }
+          }
+        }
+      ]
     }
   ],
   "description": "Bài cho mèo",

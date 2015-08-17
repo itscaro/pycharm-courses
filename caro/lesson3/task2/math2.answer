@@ -1,0 +1,38 @@
+def lookandsay(n):
+    n_as_str = str(n)
+    length = len(n_as_str)
+
+    final = ''
+
+    i = 1
+    current = n_as_str[0]
+    currentCounter = 0
+    while i <= length:
+        # Change to another digit
+        if current != n_as_str[i - 1]:
+            final += str(currentCounter) + str(current)
+
+            currentCounter = 1
+            current = n_as_str[i - 1]
+            if i == length:
+                final += str(currentCounter) + str(current)
+        # Still the same digit
+        else:
+            currentCounter += 1
+            if i == length:  # if there is not any digit
+                final += str(currentCounter) + str(current)
+        i += 1
+
+    return final
+
+
+until = int(input("How many numbers in the look-and-see sequence to print out: "))
+
+currentNb = None
+for i in range(1, until): # Here we have only (until - 1) loop starting from 1
+    if currentNb == None:
+        currentNb = 1
+        print(currentNb)
+
+    currentNb = lookandsay(currentNb)
+    print(currentNb)
