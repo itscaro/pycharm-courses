@@ -235,6 +235,14 @@
               ]
             }
           }
+        },
+        {
+          "name": "Final",
+          "task_files": {
+            "console7.py": {
+              "task_windows": []
+            }
+          }
         }
       ]
     }

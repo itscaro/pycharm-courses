@@ -789,6 +789,25 @@
                   </option>
                   <option name="myIndex" value="6" />
                 </Task>
+                <Task>
+                  <option name="index" value="7" />
+                  <option name="name" value="Final" />
+                  <option name="task_files">
+                    <map>
+                      <entry key="console7.py">
+                        <value>
+                          <TaskFile>
+                            <option name="task_windows">
+                              <list />
+                            </option>
+                            <option name="myIndex" value="7" />
+                          </TaskFile>
+                        </value>
+                      </entry>
+                    </map>
+                  </option>
+                  <option name="myIndex" value="7" />
+                </Task>
               </list>
             </option>
             <option name="myIndex" value="2" />
@@ -1191,6 +1210,29 @@
                         </map>
                       </option>
                       <option name="myIndex" value="6" />
+                    </Task>
+                  </value>
+                </entry>
+                <entry key="task7">
+                  <value>
+                    <Task>
+                      <option name="index" value="7" />
+                      <option name="name" value="Final" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="console7.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list />
+                                </option>
+                                <option name="myIndex" value="7" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="7" />
                     </Task>
                   </value>
                 </entry>
@@ -1992,6 +2034,25 @@
                       </option>
                       <option name="myIndex" value="6" />
                     </Task>
+                    <Task>
+                      <option name="index" value="7" />
+                      <option name="name" value="Final" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="console7.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list />
+                                </option>
+                                <option name="myIndex" value="7" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="7" />
+                    </Task>
                   </list>
                 </option>
                 <option name="myIndex" value="2" />
@@ -2394,6 +2455,29 @@
                             </map>
                           </option>
                           <option name="myIndex" value="6" />
+                        </Task>
+                      </value>
+                    </entry>
+                    <entry key="task7">
+                      <value>
+                        <Task>
+                          <option name="index" value="7" />
+                          <option name="name" value="Final" />
+                          <option name="task_files">
+                            <map>
+                              <entry key="console7.py">
+                                <value>
+                                  <TaskFile>
+                                    <option name="task_windows">
+                                      <list />
+                                    </option>
+                                    <option name="myIndex" value="7" />
+                                  </TaskFile>
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="myIndex" value="7" />
                         </Task>
                       </value>
                     </entry>
