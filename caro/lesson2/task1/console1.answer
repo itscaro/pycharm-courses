@@ -1,0 +1,8 @@
+input_var = input("Enter something: ")
+print("You entered: " + input_var)
+
+your_name = input("Enter your name: ")
+your_age = input("Enter your age: ")
+your_sex = input("Enter your sex: ")
+print("Hello " + your_name)
+print("You are %d years old and you are a %s" % (int(your_age), your_sex))

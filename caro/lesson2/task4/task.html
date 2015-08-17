@@ -1,0 +1,39 @@
+<html>
+Ask the user for the file path, read the file and print it out. If the given path is not a file, ask again till the user
+give a file that exists.<br>
+
+You can open a file with the function open:
+fileHandler = open([path to the file])
+
+fileHandler.read() : to read all the content
+
+fileHandler.seek() : to position the cursor (cursor is the position from where you read or write to the file)
+
+When you open a file, the cursor is at the beginning of its content (index 0). When you read all the content with read()
+for example, the cursor is at the end of the content. If you want to read twice the file, you need to rewind the cursor
+to position 0 before reading for the second time:
+
+<pre>
+fileHandler.read()
+fileHandler.seek(0)
+fileHandler.read()
+</pre>
+
+To verify if a file exit you can use:
+
+<pre>
+import os.path.isfile
+
+os.path.isfile(filename)
+</pre>
+
+<b>Do-While loop</b>
+<pre>
+While True:
+    dosomething()
+    if condition_to_break_the_loop:
+        break
+    else:
+        # actions to do before looping
+</pre>
+</html>

@@ -1,0 +1,10 @@
+number = input("Which multiplication table you want to print out? ")
+number = int(number)
+
+
+def print_a_multiplication_table(number):
+    for i in range(0, 10):
+        print('| %d x %d = %d |' % (number, i, number * i))
+
+
+print_a_multiplication_table(number)

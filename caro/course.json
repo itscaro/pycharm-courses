@@ -1,13 +1,196 @@
 {
   "lessons": [
     {
-      "name": "lesson1",
+      "name": "Working with arrays",
       "task_list": [
         {
-          "name": "task1",
+          "name": "Min Max",
           "task_files": {
-            "file1.py": {
-              "task_windows": []
+            "minmax1.py": {
+              "task_windows": [
+                {
+                  "line": 19,
+                  "start": 0,
+                  "possible_answer": "    min \u003d None\n\n    for item in list:\n        if min is None: # If min is not set yet, it\u0027s None and cannot be compared to a number\n            min \u003d item\n        elif min \u003e item:\n            min \u003d item\n\n    return min",
+                  "length": 19
+                },
+                {
+                  "line": 28,
+                  "start": 0,
+                  "possible_answer": "    max \u003d None\n\n    for item in list:\n        if max is None: # If max is not set yet, it\u0027s None and cannot be compared to a number\n            max \u003d item\n        elif max \u003c item:\n            max \u003d item\n\n    return max",
+                  "length": 19
+                },
+                {
+                  "line": 41,
+                  "start": 6,
+                  "possible_answer": "message % (1, list1, min1, max1)",
+                  "length": 40
+                },
+                {
+                  "line": 42,
+                  "start": 6,
+                  "possible_answer": "message % (2, list2, min2, max3)",
+                  "length": 40
+                },
+                {
+                  "line": 43,
+                  "start": 6,
+                  "possible_answer": "message % (3, list3, min3, max2)",
+                  "length": 40
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Min Max with One Function",
+          "task_files": {
+            "minmax2.py": {
+              "task_windows": [
+                {
+                  "line": 19,
+                  "start": 0,
+                  "hint": "lesson1task2minmax2_1",
+                  "possible_answer": "    min \u003d None\n    max \u003d None\n\n    for item in list:\n        if min is None:  # If min is not set yet, it\u0027s None and cannot be compared to a number\n            min \u003d item\n        elif min \u003e item:\n            min \u003d item\n\n        if max is None:  # If max is not set yet, it\u0027s None and cannot be compared to a number\n            max \u003d item\n        elif max \u003c item:\n            max \u003d item\n\n    return [min, max]",
+                  "length": 21
+                },
+                {
+                  "line": 21,
+                  "start": 0,
+                  "hint": "lesson1task2minmax2_2",
+                  "possible_answer": "[min1, max1] \u003d minAndMax(list1)\n[min2, max2] \u003d minAndMax(list2)\n[min3, max3] \u003d minAndMax(list3)",
+                  "length": 60
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Min Max in multi-dimensional arrays",
+          "task_files": {
+            "minmax3.py": {
+              "task_windows": [
+                {
+                  "line": 19,
+                  "start": 0,
+                  "hint": "lesson1task3minmax3_1",
+                  "possible_answer": "    min \u003d None\n    max \u003d None\n\n    for item in the_list:\n        if type(item) \u003d\u003d list:\n            [min, max] \u003d minAndMax(item)\n        else:\n            if min is None:  # If min is not set yet, it\u0027s None and cannot be compared to a number\n                min \u003d item\n            elif min \u003e item:\n                min \u003d item\n\n            if max is None:  # If max is not set yet, it\u0027s None and cannot be compared to a number\n                max \u003d item\n            elif max \u003c item:\n                max \u003d item\n\n    return [min, max]",
+                  "length": 49
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Using the console",
+      "task_list": [
+        {
+          "name": "Read and Print",
+          "task_files": {
+            "console1.py": {
+              "task_windows": [
+                {
+                  "line": 3,
+                  "start": 12,
+                  "possible_answer": "input(\"Enter your name: \")",
+                  "length": 25
+                },
+                {
+                  "line": 4,
+                  "start": 11,
+                  "possible_answer": "input(\"Enter your age: \")",
+                  "length": 24
+                },
+                {
+                  "line": 5,
+                  "start": 11,
+                  "possible_answer": "input(\"Enter your sex: \")",
+                  "length": 24
+                },
+                {
+                  "line": 6,
+                  "start": 6,
+                  "possible_answer": "\"Hello \" + your_name",
+                  "length": 25
+                },
+                {
+                  "line": 7,
+                  "start": 6,
+                  "possible_answer": "\"You are %d years old\" % int(your_age)",
+                  "length": 62
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Multiplication table",
+          "task_files": {
+            "console2.py": {
+              "task_windows": [
+                {
+                  "line": 0,
+                  "start": 0,
+                  "possible_answer": "input(\"Which multiplication table you want to print out? \")",
+                  "length": 26
+                },
+                {
+                  "line": 4,
+                  "start": 0,
+                  "possible_answer": "    for i in range(0, 10):\n        print(\u0027| %d x %d \u003d %d |\u0027 % (number, i, number * i))",
+                  "length": 47
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Multiplication table with formatting",
+          "task_files": {
+            "console3.py": {
+              "task_windows": [
+                {
+                  "line": 7,
+                  "start": 0,
+                  "possible_answer": "    for i in range(0, 10):\n        print(\u0027| %d x %d \u003d %2d |\u0027 % (number, i, number * i))",
+                  "length": 47
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Read a file",
+          "task_files": {
+            "console4.py": {
+              "task_windows": [
+                {
+                  "line": 3,
+                  "start": 15,
+                  "possible_answer": "input(\u0027Gimme the file path: \u0027)\n    if os.path.isfile(filepath):\n        break\n    else:\n        print(\u0027I cannot find the file \"%s\"\u0027 % filepath)",
+                  "length": 47
+                },
+                {
+                  "line": 6,
+                  "start": 10,
+                  "possible_answer": "fileHandler.read()",
+                  "length": 29
+                },
+                {
+                  "line": 11,
+                  "start": 0,
+                  "possible_answer": "fileHandler.seek(0)",
+                  "length": 46
+                },
+                {
+                  "line": 13,
+                  "start": 8,
+                  "possible_answer": "fileHandler.readlines()",
+                  "length": 78
+                }
+              ]
             }
           }
         }

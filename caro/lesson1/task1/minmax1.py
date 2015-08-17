@@ -17,15 +17,7 @@ def min(the_list):
     :param the_list: the input list
     :return: minimum
     """
-    min = None
-
-    for item in the_list:
-        if min is None:  # If min is not set yet, it's None and cannot be compared to a number
-            min = item
-        elif min > item:
-            min = item
-
-    return min
+Find the min number
 
 
 def max(the_list):
@@ -34,15 +26,7 @@ def max(the_list):
     :param the_list: the input list
     :return: maximum
     """
-    max = None
-
-    for item in the_list:
-        if max is None:  # If max is not set yet, it's None and cannot be compared to a number
-            max = item
-        elif max < item:
-            max = item
-
-    return max
+Find the max number
 
 
 min1 = min(list1)
@@ -55,6 +39,6 @@ min3 = min(list3)
 max3 = max(list3)
 
 message = "List %d : %s \n min is %f and max is %f"
-print(message % (1, list1, min1, max1))
-print(message % (2, list2, min2, max3))
-print(message % (3, list3, min3, max2))
+print(Print the list, min and max numbers here)
+print(Print the list, min and max numbers here)
+print(Print the list, min and max numbers here)

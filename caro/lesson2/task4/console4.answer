@@ -1,0 +1,20 @@
+import os.path
+
+while True:
+    filepath = input('Gimme the file path: ')
+    if os.path.isfile(filepath):
+        break
+    else:
+        print('I cannot find the file "%s"' % filepath)
+
+fileHandler = open(filepath)
+content = fileHandler.read()
+
+print("The file's content is:")
+print(content)
+
+fileHandler.seek(0)
+
+lines = fileHandler.readlines()
+print("The file's lines are:")
+print(lines)

@@ -26,7 +26,7 @@
                                   <option name="index" value="1" />
                                   <option name="length" value="0" />
                                   <option name="line" value="19" />
-                                  <option name="replacementLength" value="219" />
+                                  <option name="replacementLength" value="223" />
                                   <option name="start" value="0" />
                                   <option name="taskText" value="Find the min number" />
                                   <option name="line" value="19" />
@@ -35,14 +35,14 @@
                                   <option name="possible_answer" value="    min = None&#10;&#10;    for item in list:&#10;        if min is None: # If min is not set yet, it's None and cannot be compared to a number&#10;            min = item&#10;        elif min &gt; item:&#10;            min = item&#10;&#10;    return min" />
                                   <option name="length" value="0" />
                                   <option name="myTaskText" value="Find the min number" />
-                                  <option name="myReplacementLength" value="219" />
+                                  <option name="myReplacementLength" value="223" />
                                   <option name="myIndex" value="1" />
                                 </TaskWindow>
                                 <TaskWindow>
                                   <option name="index" value="2" />
                                   <option name="length" value="0" />
                                   <option name="line" value="36" />
-                                  <option name="replacementLength" value="219" />
+                                  <option name="replacementLength" value="223" />
                                   <option name="start" value="0" />
                                   <option name="taskText" value="Find the max number" />
                                   <option name="line" value="36" />
@@ -51,7 +51,7 @@
                                   <option name="possible_answer" value="    max = None&#10;&#10;    for item in list:&#10;        if max is None: # If max is not set yet, it's None and cannot be compared to a number&#10;            max = item&#10;        elif max &lt; item:&#10;            max = item&#10;&#10;    return max" />
                                   <option name="length" value="0" />
                                   <option name="myTaskText" value="Find the max number" />
-                                  <option name="myReplacementLength" value="219" />
+                                  <option name="myReplacementLength" value="223" />
                                   <option name="myIndex" value="2" />
                                 </TaskWindow>
                                 <TaskWindow>
@@ -124,23 +124,23 @@
                               <list>
                                 <TaskWindow>
                                   <option name="index" value="1" />
-                                  <option name="length" value="21" />
+                                  <option name="length" value="0" />
                                   <option name="line" value="19" />
-                                  <option name="replacementLength" value="408" />
+                                  <option name="replacementLength" value="412" />
                                   <option name="start" value="0" />
                                   <option name="taskText" value="Use one function only" />
                                   <option name="line" value="19" />
                                   <option name="start" value="0" />
                                   <option name="hint" value="lesson1task2minmax2_1" />
                                   <option name="possible_answer" value="    min = None&#10;    max = None&#10;&#10;    for item in list:&#10;        if min is None:  # If min is not set yet, it's None and cannot be compared to a number&#10;            min = item&#10;        elif min &gt; item:&#10;            min = item&#10;&#10;        if max is None:  # If max is not set yet, it's None and cannot be compared to a number&#10;            max = item&#10;        elif max &lt; item:&#10;            max = item&#10;&#10;    return [min, max]" />
-                                  <option name="length" value="21" />
+                                  <option name="length" value="0" />
                                   <option name="myTaskText" value="Use one function only" />
-                                  <option name="myReplacementLength" value="408" />
+                                  <option name="myReplacementLength" value="412" />
                                   <option name="myIndex" value="1" />
                                 </TaskWindow>
                                 <TaskWindow>
                                   <option name="index" value="2" />
-                                  <option name="length" value="60" />
+                                  <option name="length" value="0" />
                                   <option name="line" value="35" />
                                   <option name="replacementLength" value="95" />
                                   <option name="start" value="0" />
@@ -149,7 +149,7 @@
                                   <option name="start" value="0" />
                                   <option name="hint" value="lesson1task2minmax2_2" />
                                   <option name="possible_answer" value="[min1, max1] = minAndMax(list1)&#10;[min2, max2] = minAndMax(list2)&#10;[min3, max3] = minAndMax(list3)" />
-                                  <option name="length" value="60" />
+                                  <option name="length" value="0" />
                                   <option name="myTaskText" value="Using minAndMax() to find min and max numbers of these lists" />
                                   <option name="myReplacementLength" value="95" />
                                   <option name="myIndex" value="2" />
@@ -173,7 +173,24 @@
                         <value>
                           <TaskFile>
                             <option name="task_windows">
-                              <list />
+                              <list>
+                                <TaskWindow>
+                                  <option name="index" value="1" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="19" />
+                                  <option name="replacementLength" value="530" />
+                                  <option name="start" value="0" />
+                                  <option name="taskText" value="Find the smallest and largest numbers in the list" />
+                                  <option name="line" value="19" />
+                                  <option name="start" value="0" />
+                                  <option name="hint" value="lesson1task3minmax3_1" />
+                                  <option name="possible_answer" value="    min = None&#10;    max = None&#10;&#10;    for item in the_list:&#10;        if type(item) == list:&#10;            [min, max] = minAndMax(item)&#10;        else:&#10;            if min is None:  # If min is not set yet, it's None and cannot be compared to a number&#10;                min = item&#10;            elif min &gt; item:&#10;                min = item&#10;&#10;            if max is None:  # If max is not set yet, it's None and cannot be compared to a number&#10;                max = item&#10;            elif max &lt; item:&#10;                max = item&#10;&#10;    return [min, max]" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Find the smallest and largest numbers in the list" />
+                                  <option name="myReplacementLength" value="530" />
+                                  <option name="myIndex" value="1" />
+                                </TaskWindow>
+                              </list>
                             </option>
                             <option name="myIndex" value="3" />
                           </TaskFile>
@@ -204,7 +221,7 @@
                                       <option name="index" value="1" />
                                       <option name="length" value="0" />
                                       <option name="line" value="19" />
-                                      <option name="replacementLength" value="219" />
+                                      <option name="replacementLength" value="223" />
                                       <option name="start" value="0" />
                                       <option name="taskText" value="Find the min number" />
                                       <option name="line" value="19" />
@@ -213,14 +230,14 @@
                                       <option name="possible_answer" value="    min = None&#10;&#10;    for item in list:&#10;        if min is None: # If min is not set yet, it's None and cannot be compared to a number&#10;            min = item&#10;        elif min &gt; item:&#10;            min = item&#10;&#10;    return min" />
                                       <option name="length" value="0" />
                                       <option name="myTaskText" value="Find the min number" />
-                                      <option name="myReplacementLength" value="219" />
+                                      <option name="myReplacementLength" value="223" />
                                       <option name="myIndex" value="1" />
                                     </TaskWindow>
                                     <TaskWindow>
                                       <option name="index" value="2" />
                                       <option name="length" value="0" />
                                       <option name="line" value="36" />
-                                      <option name="replacementLength" value="219" />
+                                      <option name="replacementLength" value="223" />
                                       <option name="start" value="0" />
                                       <option name="taskText" value="Find the max number" />
                                       <option name="line" value="36" />
@@ -229,7 +246,7 @@
                                       <option name="possible_answer" value="    max = None&#10;&#10;    for item in list:&#10;        if max is None: # If max is not set yet, it's None and cannot be compared to a number&#10;            max = item&#10;        elif max &lt; item:&#10;            max = item&#10;&#10;    return max" />
                                       <option name="length" value="0" />
                                       <option name="myTaskText" value="Find the max number" />
-                                      <option name="myReplacementLength" value="219" />
+                                      <option name="myReplacementLength" value="223" />
                                       <option name="myIndex" value="2" />
                                     </TaskWindow>
                                     <TaskWindow>
@@ -306,23 +323,23 @@
                                   <list>
                                     <TaskWindow>
                                       <option name="index" value="1" />
-                                      <option name="length" value="21" />
+                                      <option name="length" value="0" />
                                       <option name="line" value="19" />
-                                      <option name="replacementLength" value="408" />
+                                      <option name="replacementLength" value="412" />
                                       <option name="start" value="0" />
                                       <option name="taskText" value="Use one function only" />
                                       <option name="line" value="19" />
                                       <option name="start" value="0" />
                                       <option name="hint" value="lesson1task2minmax2_1" />
                                       <option name="possible_answer" value="    min = None&#10;    max = None&#10;&#10;    for item in list:&#10;        if min is None:  # If min is not set yet, it's None and cannot be compared to a number&#10;            min = item&#10;        elif min &gt; item:&#10;            min = item&#10;&#10;        if max is None:  # If max is not set yet, it's None and cannot be compared to a number&#10;            max = item&#10;        elif max &lt; item:&#10;            max = item&#10;&#10;    return [min, max]" />
-                                      <option name="length" value="21" />
+                                      <option name="length" value="0" />
                                       <option name="myTaskText" value="Use one function only" />
-                                      <option name="myReplacementLength" value="408" />
+                                      <option name="myReplacementLength" value="412" />
                                       <option name="myIndex" value="1" />
                                     </TaskWindow>
                                     <TaskWindow>
                                       <option name="index" value="2" />
-                                      <option name="length" value="60" />
+                                      <option name="length" value="0" />
                                       <option name="line" value="35" />
                                       <option name="replacementLength" value="95" />
                                       <option name="start" value="0" />
@@ -331,7 +348,7 @@
                                       <option name="start" value="0" />
                                       <option name="hint" value="lesson1task2minmax2_2" />
                                       <option name="possible_answer" value="[min1, max1] = minAndMax(list1)&#10;[min2, max2] = minAndMax(list2)&#10;[min3, max3] = minAndMax(list3)" />
-                                      <option name="length" value="60" />
+                                      <option name="length" value="0" />
                                       <option name="myTaskText" value="Using minAndMax() to find min and max numbers of these lists" />
                                       <option name="myReplacementLength" value="95" />
                                       <option name="myIndex" value="2" />
@@ -359,7 +376,24 @@
                             <value>
                               <TaskFile>
                                 <option name="task_windows">
-                                  <list />
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="19" />
+                                      <option name="replacementLength" value="530" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" value="Find the smallest and largest numbers in the list" />
+                                      <option name="line" value="19" />
+                                      <option name="start" value="0" />
+                                      <option name="hint" value="lesson1task3minmax3_1" />
+                                      <option name="possible_answer" value="    min = None&#10;    max = None&#10;&#10;    for item in the_list:&#10;        if type(item) == list:&#10;            [min, max] = minAndMax(item)&#10;        else:&#10;            if min is None:  # If min is not set yet, it's None and cannot be compared to a number&#10;                min = item&#10;            elif min &gt; item:&#10;                min = item&#10;&#10;            if max is None:  # If max is not set yet, it's None and cannot be compared to a number&#10;                max = item&#10;            elif max &lt; item:&#10;                max = item&#10;&#10;    return [min, max]" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Find the smallest and largest numbers in the list" />
+                                      <option name="myReplacementLength" value="530" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                  </list>
                                 </option>
                                 <option name="myIndex" value="3" />
                               </TaskFile>
@@ -368,6 +402,579 @@
                         </map>
                       </option>
                       <option name="myIndex" value="3" />
+                    </Task>
+                  </value>
+                </entry>
+              </map>
+            </option>
+          </Lesson>
+          <Lesson>
+            <option name="index" value="2" />
+            <option name="name" value="Using the console" />
+            <option name="task_list">
+              <list>
+                <Task>
+                  <option name="index" value="1" />
+                  <option name="name" value="Read and Print" />
+                  <option name="task_files">
+                    <map>
+                      <entry key="console1.py">
+                        <value>
+                          <TaskFile>
+                            <option name="task_windows">
+                              <list>
+                                <TaskWindow>
+                                  <option name="index" value="1" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="3" />
+                                  <option name="replacementLength" value="26" />
+                                  <option name="start" value="12" />
+                                  <option name="taskText" value="Ask the user her/his name" />
+                                  <option name="line" value="3" />
+                                  <option name="start" value="12" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="input(&quot;Enter your name: &quot;)" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Ask the user her/his name" />
+                                  <option name="myReplacementLength" value="26" />
+                                  <option name="myIndex" value="1" />
+                                </TaskWindow>
+                                <TaskWindow>
+                                  <option name="index" value="2" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="4" />
+                                  <option name="replacementLength" value="25" />
+                                  <option name="start" value="11" />
+                                  <option name="taskText" value="Ask the user her/his age" />
+                                  <option name="line" value="4" />
+                                  <option name="start" value="11" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="input(&quot;Enter your age: &quot;)" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Ask the user her/his age" />
+                                  <option name="myReplacementLength" value="25" />
+                                  <option name="myIndex" value="2" />
+                                </TaskWindow>
+                                <TaskWindow>
+                                  <option name="index" value="3" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="5" />
+                                  <option name="replacementLength" value="25" />
+                                  <option name="start" value="11" />
+                                  <option name="taskText" value="Ask the user her/his sex" />
+                                  <option name="line" value="5" />
+                                  <option name="start" value="11" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="input(&quot;Enter your sex: &quot;)" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Ask the user her/his sex" />
+                                  <option name="myReplacementLength" value="25" />
+                                  <option name="myIndex" value="3" />
+                                </TaskWindow>
+                                <TaskWindow>
+                                  <option name="index" value="4" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="6" />
+                                  <option name="replacementLength" value="20" />
+                                  <option name="start" value="6" />
+                                  <option name="taskText" value="Print &quot;Hello &lt;your_name&gt;&quot;" />
+                                  <option name="line" value="6" />
+                                  <option name="start" value="6" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="&quot;Hello &quot; + your_name" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Print &quot;Hello &lt;your_name&gt;&quot;" />
+                                  <option name="myReplacementLength" value="20" />
+                                  <option name="myIndex" value="4" />
+                                </TaskWindow>
+                                <TaskWindow>
+                                  <option name="index" value="5" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="7" />
+                                  <option name="replacementLength" value="67" />
+                                  <option name="start" value="6" />
+                                  <option name="taskText" value="Print &quot;&quot;You are &lt;your_age&gt; years old and you are a &lt;your_sex&gt;&quot;" />
+                                  <option name="line" value="7" />
+                                  <option name="start" value="6" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="&quot;You are %d years old&quot; % int(your_age)" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Print &quot;&quot;You are &lt;your_age&gt; years old and you are a &lt;your_sex&gt;&quot;" />
+                                  <option name="myReplacementLength" value="67" />
+                                  <option name="myIndex" value="5" />
+                                </TaskWindow>
+                              </list>
+                            </option>
+                            <option name="myIndex" value="1" />
+                          </TaskFile>
+                        </value>
+                      </entry>
+                    </map>
+                  </option>
+                  <option name="myIndex" value="1" />
+                </Task>
+                <Task>
+                  <option name="index" value="2" />
+                  <option name="name" value="Multiplication table" />
+                  <option name="task_files">
+                    <map>
+                      <entry key="console2.py">
+                        <value>
+                          <TaskFile>
+                            <option name="task_windows">
+                              <list>
+                                <TaskWindow>
+                                  <option name="index" value="1" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="0" />
+                                  <option name="replacementLength" value="89" />
+                                  <option name="start" value="0" />
+                                  <option name="taskText" value="Ask user to input a number" />
+                                  <option name="line" value="0" />
+                                  <option name="start" value="0" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="input(&quot;Which multiplication table you want to print out? &quot;)" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Ask user to input a number" />
+                                  <option name="myReplacementLength" value="89" />
+                                  <option name="myIndex" value="1" />
+                                </TaskWindow>
+                                <TaskWindow>
+                                  <option name="index" value="2" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="5" />
+                                  <option name="replacementLength" value="86" />
+                                  <option name="start" value="0" />
+                                  <option name="taskText" value="Print out the multiplication table using a loop" />
+                                  <option name="line" value="5" />
+                                  <option name="start" value="0" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="    for i in range(0, 10):&#10;        print('| %d x %d = %d |' % (number, i, number * i))" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Print out the multiplication table using a loop" />
+                                  <option name="myReplacementLength" value="86" />
+                                  <option name="myIndex" value="2" />
+                                </TaskWindow>
+                              </list>
+                            </option>
+                            <option name="myIndex" value="2" />
+                          </TaskFile>
+                        </value>
+                      </entry>
+                    </map>
+                  </option>
+                  <option name="myIndex" value="2" />
+                </Task>
+                <Task>
+                  <option name="index" value="3" />
+                  <option name="name" value="Multiplication table with formatting" />
+                  <option name="task_files">
+                    <map>
+                      <entry key="console3.py">
+                        <value>
+                          <TaskFile>
+                            <option name="task_windows">
+                              <list>
+                                <TaskWindow>
+                                  <option name="index" value="1" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="7" />
+                                  <option name="replacementLength" value="87" />
+                                  <option name="start" value="0" />
+                                  <option name="taskText" value="Print out the multiplication table using a loop" />
+                                  <option name="line" value="7" />
+                                  <option name="start" value="0" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="    for i in range(0, 10):&#10;        print('| %d x %d = %2d |' % (number, i, number * i))" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Print out the multiplication table using a loop" />
+                                  <option name="myReplacementLength" value="87" />
+                                  <option name="myIndex" value="1" />
+                                </TaskWindow>
+                              </list>
+                            </option>
+                            <option name="myIndex" value="3" />
+                          </TaskFile>
+                        </value>
+                      </entry>
+                    </map>
+                  </option>
+                  <option name="myIndex" value="3" />
+                </Task>
+                <Task>
+                  <option name="index" value="4" />
+                  <option name="name" value="Read a file" />
+                  <option name="task_files">
+                    <map>
+                      <entry key="console4.py">
+                        <value>
+                          <TaskFile>
+                            <option name="task_windows">
+                              <list>
+                                <TaskWindow>
+                                  <option name="index" value="1" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="3" />
+                                  <option name="replacementLength" value="143" />
+                                  <option name="start" value="15" />
+                                  <option name="taskText" value="Ask for a file path until a valid file is given" />
+                                  <option name="line" value="3" />
+                                  <option name="start" value="15" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="input('Gimme the file path: ')&#10;    if os.path.isfile(filepath):&#10;        break&#10;    else:&#10;        print('I cannot find the file &quot;%s&quot;' % filepath)" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Ask for a file path until a valid file is given" />
+                                  <option name="myReplacementLength" value="143" />
+                                  <option name="myIndex" value="1" />
+                                </TaskWindow>
+                                <TaskWindow>
+                                  <option name="index" value="2" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="10" />
+                                  <option name="replacementLength" value="18" />
+                                  <option name="start" value="10" />
+                                  <option name="taskText" value="Read full content of the file" />
+                                  <option name="line" value="10" />
+                                  <option name="start" value="10" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="fileHandler.read()" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Read full content of the file" />
+                                  <option name="myReplacementLength" value="18" />
+                                  <option name="myIndex" value="2" />
+                                </TaskWindow>
+                                <TaskWindow>
+                                  <option name="index" value="3" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="15" />
+                                  <option name="replacementLength" value="19" />
+                                  <option name="start" value="0" />
+                                  <option name="taskText" value="Rewind the cursor to the beginning of the file" />
+                                  <option name="line" value="15" />
+                                  <option name="start" value="0" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="fileHandler.seek(0)" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Rewind the cursor to the beginning of the file" />
+                                  <option name="myReplacementLength" value="19" />
+                                  <option name="myIndex" value="3" />
+                                </TaskWindow>
+                                <TaskWindow>
+                                  <option name="index" value="4" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="17" />
+                                  <option name="replacementLength" value="23" />
+                                  <option name="start" value="8" />
+                                  <option name="taskText" value="Read the file and return a list of lines (each line is an element of the list)" />
+                                  <option name="line" value="17" />
+                                  <option name="start" value="8" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="fileHandler.readlines()" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Read the file and return a list of lines (each line is an element of the list)" />
+                                  <option name="myReplacementLength" value="23" />
+                                  <option name="myIndex" value="4" />
+                                </TaskWindow>
+                              </list>
+                            </option>
+                            <option name="myIndex" value="4" />
+                          </TaskFile>
+                        </value>
+                      </entry>
+                    </map>
+                  </option>
+                  <option name="myIndex" value="4" />
+                </Task>
+              </list>
+            </option>
+            <option name="myIndex" value="2" />
+            <option name="myTasksMap">
+              <map>
+                <entry key="task1">
+                  <value>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="Read and Print" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="console1.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="3" />
+                                      <option name="replacementLength" value="26" />
+                                      <option name="start" value="12" />
+                                      <option name="taskText" value="Ask the user her/his name" />
+                                      <option name="line" value="3" />
+                                      <option name="start" value="12" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="input(&quot;Enter your name: &quot;)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Ask the user her/his name" />
+                                      <option name="myReplacementLength" value="26" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="2" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="4" />
+                                      <option name="replacementLength" value="25" />
+                                      <option name="start" value="11" />
+                                      <option name="taskText" value="Ask the user her/his age" />
+                                      <option name="line" value="4" />
+                                      <option name="start" value="11" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="input(&quot;Enter your age: &quot;)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Ask the user her/his age" />
+                                      <option name="myReplacementLength" value="25" />
+                                      <option name="myIndex" value="2" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="3" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="5" />
+                                      <option name="replacementLength" value="25" />
+                                      <option name="start" value="11" />
+                                      <option name="taskText" value="Ask the user her/his sex" />
+                                      <option name="line" value="5" />
+                                      <option name="start" value="11" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="input(&quot;Enter your sex: &quot;)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Ask the user her/his sex" />
+                                      <option name="myReplacementLength" value="25" />
+                                      <option name="myIndex" value="3" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="4" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="6" />
+                                      <option name="replacementLength" value="20" />
+                                      <option name="start" value="6" />
+                                      <option name="taskText" value="Print &quot;Hello &lt;your_name&gt;&quot;" />
+                                      <option name="line" value="6" />
+                                      <option name="start" value="6" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="&quot;Hello &quot; + your_name" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Print &quot;Hello &lt;your_name&gt;&quot;" />
+                                      <option name="myReplacementLength" value="20" />
+                                      <option name="myIndex" value="4" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="5" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="7" />
+                                      <option name="replacementLength" value="67" />
+                                      <option name="start" value="6" />
+                                      <option name="taskText" value="Print &quot;&quot;You are &lt;your_age&gt; years old and you are a &lt;your_sex&gt;&quot;" />
+                                      <option name="line" value="7" />
+                                      <option name="start" value="6" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="&quot;You are %d years old&quot; % int(your_age)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Print &quot;&quot;You are &lt;your_age&gt; years old and you are a &lt;your_sex&gt;&quot;" />
+                                      <option name="myReplacementLength" value="67" />
+                                      <option name="myIndex" value="5" />
+                                    </TaskWindow>
+                                  </list>
+                                </option>
+                                <option name="myIndex" value="1" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="1" />
+                    </Task>
+                  </value>
+                </entry>
+                <entry key="task2">
+                  <value>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="Multiplication table" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="console2.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="0" />
+                                      <option name="replacementLength" value="89" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" value="Ask user to input a number" />
+                                      <option name="line" value="0" />
+                                      <option name="start" value="0" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="input(&quot;Which multiplication table you want to print out? &quot;)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Ask user to input a number" />
+                                      <option name="myReplacementLength" value="89" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="2" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="5" />
+                                      <option name="replacementLength" value="86" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" value="Print out the multiplication table using a loop" />
+                                      <option name="line" value="5" />
+                                      <option name="start" value="0" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="    for i in range(0, 10):&#10;        print('| %d x %d = %d |' % (number, i, number * i))" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Print out the multiplication table using a loop" />
+                                      <option name="myReplacementLength" value="86" />
+                                      <option name="myIndex" value="2" />
+                                    </TaskWindow>
+                                  </list>
+                                </option>
+                                <option name="myIndex" value="2" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="2" />
+                    </Task>
+                  </value>
+                </entry>
+                <entry key="task3">
+                  <value>
+                    <Task>
+                      <option name="index" value="3" />
+                      <option name="name" value="Multiplication table with formatting" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="console3.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="7" />
+                                      <option name="replacementLength" value="87" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" value="Print out the multiplication table using a loop" />
+                                      <option name="line" value="7" />
+                                      <option name="start" value="0" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="    for i in range(0, 10):&#10;        print('| %d x %d = %2d |' % (number, i, number * i))" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Print out the multiplication table using a loop" />
+                                      <option name="myReplacementLength" value="87" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                  </list>
+                                </option>
+                                <option name="myIndex" value="3" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="3" />
+                    </Task>
+                  </value>
+                </entry>
+                <entry key="task4">
+                  <value>
+                    <Task>
+                      <option name="index" value="4" />
+                      <option name="name" value="Read a file" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="console4.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="3" />
+                                      <option name="replacementLength" value="143" />
+                                      <option name="start" value="15" />
+                                      <option name="taskText" value="Ask for a file path until a valid file is given" />
+                                      <option name="line" value="3" />
+                                      <option name="start" value="15" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="input('Gimme the file path: ')&#10;    if os.path.isfile(filepath):&#10;        break&#10;    else:&#10;        print('I cannot find the file &quot;%s&quot;' % filepath)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Ask for a file path until a valid file is given" />
+                                      <option name="myReplacementLength" value="143" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="2" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="10" />
+                                      <option name="replacementLength" value="18" />
+                                      <option name="start" value="10" />
+                                      <option name="taskText" value="Read full content of the file" />
+                                      <option name="line" value="10" />
+                                      <option name="start" value="10" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="fileHandler.read()" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Read full content of the file" />
+                                      <option name="myReplacementLength" value="18" />
+                                      <option name="myIndex" value="2" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="3" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="15" />
+                                      <option name="replacementLength" value="19" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" value="Rewind the cursor to the beginning of the file" />
+                                      <option name="line" value="15" />
+                                      <option name="start" value="0" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="fileHandler.seek(0)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Rewind the cursor to the beginning of the file" />
+                                      <option name="myReplacementLength" value="19" />
+                                      <option name="myIndex" value="3" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="4" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="17" />
+                                      <option name="replacementLength" value="23" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" value="Read the file and return a list of lines (each line is an element of the list)" />
+                                      <option name="line" value="17" />
+                                      <option name="start" value="8" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="fileHandler.readlines()" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Read the file and return a list of lines (each line is an element of the list)" />
+                                      <option name="myReplacementLength" value="23" />
+                                      <option name="myIndex" value="4" />
+                                    </TaskWindow>
+                                  </list>
+                                </option>
+                                <option name="myIndex" value="4" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="4" />
                     </Task>
                   </value>
                 </entry>
@@ -402,7 +1009,7 @@
                                       <option name="index" value="1" />
                                       <option name="length" value="0" />
                                       <option name="line" value="19" />
-                                      <option name="replacementLength" value="219" />
+                                      <option name="replacementLength" value="223" />
                                       <option name="start" value="0" />
                                       <option name="taskText" value="Find the min number" />
                                       <option name="line" value="19" />
@@ -411,14 +1018,14 @@
                                       <option name="possible_answer" value="    min = None&#10;&#10;    for item in list:&#10;        if min is None: # If min is not set yet, it's None and cannot be compared to a number&#10;            min = item&#10;        elif min &gt; item:&#10;            min = item&#10;&#10;    return min" />
                                       <option name="length" value="0" />
                                       <option name="myTaskText" value="Find the min number" />
-                                      <option name="myReplacementLength" value="219" />
+                                      <option name="myReplacementLength" value="223" />
                                       <option name="myIndex" value="1" />
                                     </TaskWindow>
                                     <TaskWindow>
                                       <option name="index" value="2" />
                                       <option name="length" value="0" />
                                       <option name="line" value="36" />
-                                      <option name="replacementLength" value="219" />
+                                      <option name="replacementLength" value="223" />
                                       <option name="start" value="0" />
                                       <option name="taskText" value="Find the max number" />
                                       <option name="line" value="36" />
@@ -427,7 +1034,7 @@
                                       <option name="possible_answer" value="    max = None&#10;&#10;    for item in list:&#10;        if max is None: # If max is not set yet, it's None and cannot be compared to a number&#10;            max = item&#10;        elif max &lt; item:&#10;            max = item&#10;&#10;    return max" />
                                       <option name="length" value="0" />
                                       <option name="myTaskText" value="Find the max number" />
-                                      <option name="myReplacementLength" value="219" />
+                                      <option name="myReplacementLength" value="223" />
                                       <option name="myIndex" value="2" />
                                     </TaskWindow>
                                     <TaskWindow>
@@ -500,23 +1107,23 @@
                                   <list>
                                     <TaskWindow>
                                       <option name="index" value="1" />
-                                      <option name="length" value="21" />
+                                      <option name="length" value="0" />
                                       <option name="line" value="19" />
-                                      <option name="replacementLength" value="408" />
+                                      <option name="replacementLength" value="412" />
                                       <option name="start" value="0" />
                                       <option name="taskText" value="Use one function only" />
                                       <option name="line" value="19" />
                                       <option name="start" value="0" />
                                       <option name="hint" value="lesson1task2minmax2_1" />
                                       <option name="possible_answer" value="    min = None&#10;    max = None&#10;&#10;    for item in list:&#10;        if min is None:  # If min is not set yet, it's None and cannot be compared to a number&#10;            min = item&#10;        elif min &gt; item:&#10;            min = item&#10;&#10;        if max is None:  # If max is not set yet, it's None and cannot be compared to a number&#10;            max = item&#10;        elif max &lt; item:&#10;            max = item&#10;&#10;    return [min, max]" />
-                                      <option name="length" value="21" />
+                                      <option name="length" value="0" />
                                       <option name="myTaskText" value="Use one function only" />
-                                      <option name="myReplacementLength" value="408" />
+                                      <option name="myReplacementLength" value="412" />
                                       <option name="myIndex" value="1" />
                                     </TaskWindow>
                                     <TaskWindow>
                                       <option name="index" value="2" />
-                                      <option name="length" value="60" />
+                                      <option name="length" value="0" />
                                       <option name="line" value="35" />
                                       <option name="replacementLength" value="95" />
                                       <option name="start" value="0" />
@@ -525,7 +1132,7 @@
                                       <option name="start" value="0" />
                                       <option name="hint" value="lesson1task2minmax2_2" />
                                       <option name="possible_answer" value="[min1, max1] = minAndMax(list1)&#10;[min2, max2] = minAndMax(list2)&#10;[min3, max3] = minAndMax(list3)" />
-                                      <option name="length" value="60" />
+                                      <option name="length" value="0" />
                                       <option name="myTaskText" value="Using minAndMax() to find min and max numbers of these lists" />
                                       <option name="myReplacementLength" value="95" />
                                       <option name="myIndex" value="2" />
@@ -549,7 +1156,24 @@
                             <value>
                               <TaskFile>
                                 <option name="task_windows">
-                                  <list />
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="19" />
+                                      <option name="replacementLength" value="530" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" value="Find the smallest and largest numbers in the list" />
+                                      <option name="line" value="19" />
+                                      <option name="start" value="0" />
+                                      <option name="hint" value="lesson1task3minmax3_1" />
+                                      <option name="possible_answer" value="    min = None&#10;    max = None&#10;&#10;    for item in the_list:&#10;        if type(item) == list:&#10;            [min, max] = minAndMax(item)&#10;        else:&#10;            if min is None:  # If min is not set yet, it's None and cannot be compared to a number&#10;                min = item&#10;            elif min &gt; item:&#10;                min = item&#10;&#10;            if max is None:  # If max is not set yet, it's None and cannot be compared to a number&#10;                max = item&#10;            elif max &lt; item:&#10;                max = item&#10;&#10;    return [min, max]" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Find the smallest and largest numbers in the list" />
+                                      <option name="myReplacementLength" value="530" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                  </list>
                                 </option>
                                 <option name="myIndex" value="3" />
                               </TaskFile>
@@ -580,7 +1204,7 @@
                                           <option name="index" value="1" />
                                           <option name="length" value="0" />
                                           <option name="line" value="19" />
-                                          <option name="replacementLength" value="219" />
+                                          <option name="replacementLength" value="223" />
                                           <option name="start" value="0" />
                                           <option name="taskText" value="Find the min number" />
                                           <option name="line" value="19" />
@@ -589,14 +1213,14 @@
                                           <option name="possible_answer" value="    min = None&#10;&#10;    for item in list:&#10;        if min is None: # If min is not set yet, it's None and cannot be compared to a number&#10;            min = item&#10;        elif min &gt; item:&#10;            min = item&#10;&#10;    return min" />
                                           <option name="length" value="0" />
                                           <option name="myTaskText" value="Find the min number" />
-                                          <option name="myReplacementLength" value="219" />
+                                          <option name="myReplacementLength" value="223" />
                                           <option name="myIndex" value="1" />
                                         </TaskWindow>
                                         <TaskWindow>
                                           <option name="index" value="2" />
                                           <option name="length" value="0" />
                                           <option name="line" value="36" />
-                                          <option name="replacementLength" value="219" />
+                                          <option name="replacementLength" value="223" />
                                           <option name="start" value="0" />
                                           <option name="taskText" value="Find the max number" />
                                           <option name="line" value="36" />
@@ -605,7 +1229,7 @@
                                           <option name="possible_answer" value="    max = None&#10;&#10;    for item in list:&#10;        if max is None: # If max is not set yet, it's None and cannot be compared to a number&#10;            max = item&#10;        elif max &lt; item:&#10;            max = item&#10;&#10;    return max" />
                                           <option name="length" value="0" />
                                           <option name="myTaskText" value="Find the max number" />
-                                          <option name="myReplacementLength" value="219" />
+                                          <option name="myReplacementLength" value="223" />
                                           <option name="myIndex" value="2" />
                                         </TaskWindow>
                                         <TaskWindow>
@@ -682,23 +1306,23 @@
                                       <list>
                                         <TaskWindow>
                                           <option name="index" value="1" />
-                                          <option name="length" value="21" />
+                                          <option name="length" value="0" />
                                           <option name="line" value="19" />
-                                          <option name="replacementLength" value="408" />
+                                          <option name="replacementLength" value="412" />
                                           <option name="start" value="0" />
                                           <option name="taskText" value="Use one function only" />
                                           <option name="line" value="19" />
                                           <option name="start" value="0" />
                                           <option name="hint" value="lesson1task2minmax2_1" />
                                           <option name="possible_answer" value="    min = None&#10;    max = None&#10;&#10;    for item in list:&#10;        if min is None:  # If min is not set yet, it's None and cannot be compared to a number&#10;            min = item&#10;        elif min &gt; item:&#10;            min = item&#10;&#10;        if max is None:  # If max is not set yet, it's None and cannot be compared to a number&#10;            max = item&#10;        elif max &lt; item:&#10;            max = item&#10;&#10;    return [min, max]" />
-                                          <option name="length" value="21" />
+                                          <option name="length" value="0" />
                                           <option name="myTaskText" value="Use one function only" />
-                                          <option name="myReplacementLength" value="408" />
+                                          <option name="myReplacementLength" value="412" />
                                           <option name="myIndex" value="1" />
                                         </TaskWindow>
                                         <TaskWindow>
                                           <option name="index" value="2" />
-                                          <option name="length" value="60" />
+                                          <option name="length" value="0" />
                                           <option name="line" value="35" />
                                           <option name="replacementLength" value="95" />
                                           <option name="start" value="0" />
@@ -707,7 +1331,7 @@
                                           <option name="start" value="0" />
                                           <option name="hint" value="lesson1task2minmax2_2" />
                                           <option name="possible_answer" value="[min1, max1] = minAndMax(list1)&#10;[min2, max2] = minAndMax(list2)&#10;[min3, max3] = minAndMax(list3)" />
-                                          <option name="length" value="60" />
+                                          <option name="length" value="0" />
                                           <option name="myTaskText" value="Using minAndMax() to find min and max numbers of these lists" />
                                           <option name="myReplacementLength" value="95" />
                                           <option name="myIndex" value="2" />
@@ -735,7 +1359,24 @@
                                 <value>
                                   <TaskFile>
                                     <option name="task_windows">
-                                      <list />
+                                      <list>
+                                        <TaskWindow>
+                                          <option name="index" value="1" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="19" />
+                                          <option name="replacementLength" value="530" />
+                                          <option name="start" value="0" />
+                                          <option name="taskText" value="Find the smallest and largest numbers in the list" />
+                                          <option name="line" value="19" />
+                                          <option name="start" value="0" />
+                                          <option name="hint" value="lesson1task3minmax3_1" />
+                                          <option name="possible_answer" value="    min = None&#10;    max = None&#10;&#10;    for item in the_list:&#10;        if type(item) == list:&#10;            [min, max] = minAndMax(item)&#10;        else:&#10;            if min is None:  # If min is not set yet, it's None and cannot be compared to a number&#10;                min = item&#10;            elif min &gt; item:&#10;                min = item&#10;&#10;            if max is None:  # If max is not set yet, it's None and cannot be compared to a number&#10;                max = item&#10;            elif max &lt; item:&#10;                max = item&#10;&#10;    return [min, max]" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Find the smallest and largest numbers in the list" />
+                                          <option name="myReplacementLength" value="530" />
+                                          <option name="myIndex" value="1" />
+                                        </TaskWindow>
+                                      </list>
                                     </option>
                                     <option name="myIndex" value="3" />
                                   </TaskFile>
@@ -744,6 +1385,583 @@
                             </map>
                           </option>
                           <option name="myIndex" value="3" />
+                        </Task>
+                      </value>
+                    </entry>
+                  </map>
+                </option>
+              </Lesson>
+            </value>
+          </entry>
+          <entry key="lesson2">
+            <value>
+              <Lesson>
+                <option name="index" value="2" />
+                <option name="name" value="Using the console" />
+                <option name="task_list">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="Read and Print" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="console1.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="3" />
+                                      <option name="replacementLength" value="26" />
+                                      <option name="start" value="12" />
+                                      <option name="taskText" value="Ask the user her/his name" />
+                                      <option name="line" value="3" />
+                                      <option name="start" value="12" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="input(&quot;Enter your name: &quot;)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Ask the user her/his name" />
+                                      <option name="myReplacementLength" value="26" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="2" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="4" />
+                                      <option name="replacementLength" value="25" />
+                                      <option name="start" value="11" />
+                                      <option name="taskText" value="Ask the user her/his age" />
+                                      <option name="line" value="4" />
+                                      <option name="start" value="11" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="input(&quot;Enter your age: &quot;)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Ask the user her/his age" />
+                                      <option name="myReplacementLength" value="25" />
+                                      <option name="myIndex" value="2" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="3" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="5" />
+                                      <option name="replacementLength" value="25" />
+                                      <option name="start" value="11" />
+                                      <option name="taskText" value="Ask the user her/his sex" />
+                                      <option name="line" value="5" />
+                                      <option name="start" value="11" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="input(&quot;Enter your sex: &quot;)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Ask the user her/his sex" />
+                                      <option name="myReplacementLength" value="25" />
+                                      <option name="myIndex" value="3" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="4" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="6" />
+                                      <option name="replacementLength" value="20" />
+                                      <option name="start" value="6" />
+                                      <option name="taskText" value="Print &quot;Hello &lt;your_name&gt;&quot;" />
+                                      <option name="line" value="6" />
+                                      <option name="start" value="6" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="&quot;Hello &quot; + your_name" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Print &quot;Hello &lt;your_name&gt;&quot;" />
+                                      <option name="myReplacementLength" value="20" />
+                                      <option name="myIndex" value="4" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="5" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="7" />
+                                      <option name="replacementLength" value="67" />
+                                      <option name="start" value="6" />
+                                      <option name="taskText" value="Print &quot;&quot;You are &lt;your_age&gt; years old and you are a &lt;your_sex&gt;&quot;" />
+                                      <option name="line" value="7" />
+                                      <option name="start" value="6" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="&quot;You are %d years old&quot; % int(your_age)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Print &quot;&quot;You are &lt;your_age&gt; years old and you are a &lt;your_sex&gt;&quot;" />
+                                      <option name="myReplacementLength" value="67" />
+                                      <option name="myIndex" value="5" />
+                                    </TaskWindow>
+                                  </list>
+                                </option>
+                                <option name="myIndex" value="1" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="1" />
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="Multiplication table" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="console2.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="0" />
+                                      <option name="replacementLength" value="89" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" value="Ask user to input a number" />
+                                      <option name="line" value="0" />
+                                      <option name="start" value="0" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="input(&quot;Which multiplication table you want to print out? &quot;)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Ask user to input a number" />
+                                      <option name="myReplacementLength" value="89" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="2" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="5" />
+                                      <option name="replacementLength" value="86" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" value="Print out the multiplication table using a loop" />
+                                      <option name="line" value="5" />
+                                      <option name="start" value="0" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="    for i in range(0, 10):&#10;        print('| %d x %d = %d |' % (number, i, number * i))" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Print out the multiplication table using a loop" />
+                                      <option name="myReplacementLength" value="86" />
+                                      <option name="myIndex" value="2" />
+                                    </TaskWindow>
+                                  </list>
+                                </option>
+                                <option name="myIndex" value="2" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="2" />
+                    </Task>
+                    <Task>
+                      <option name="index" value="3" />
+                      <option name="name" value="Multiplication table with formatting" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="console3.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="7" />
+                                      <option name="replacementLength" value="87" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" value="Print out the multiplication table using a loop" />
+                                      <option name="line" value="7" />
+                                      <option name="start" value="0" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="    for i in range(0, 10):&#10;        print('| %d x %d = %2d |' % (number, i, number * i))" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Print out the multiplication table using a loop" />
+                                      <option name="myReplacementLength" value="87" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                  </list>
+                                </option>
+                                <option name="myIndex" value="3" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="3" />
+                    </Task>
+                    <Task>
+                      <option name="index" value="4" />
+                      <option name="name" value="Read a file" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="console4.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="3" />
+                                      <option name="replacementLength" value="143" />
+                                      <option name="start" value="15" />
+                                      <option name="taskText" value="Ask for a file path until a valid file is given" />
+                                      <option name="line" value="3" />
+                                      <option name="start" value="15" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="input('Gimme the file path: ')&#10;    if os.path.isfile(filepath):&#10;        break&#10;    else:&#10;        print('I cannot find the file &quot;%s&quot;' % filepath)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Ask for a file path until a valid file is given" />
+                                      <option name="myReplacementLength" value="143" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="2" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="10" />
+                                      <option name="replacementLength" value="18" />
+                                      <option name="start" value="10" />
+                                      <option name="taskText" value="Read full content of the file" />
+                                      <option name="line" value="10" />
+                                      <option name="start" value="10" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="fileHandler.read()" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Read full content of the file" />
+                                      <option name="myReplacementLength" value="18" />
+                                      <option name="myIndex" value="2" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="3" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="15" />
+                                      <option name="replacementLength" value="19" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" value="Rewind the cursor to the beginning of the file" />
+                                      <option name="line" value="15" />
+                                      <option name="start" value="0" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="fileHandler.seek(0)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Rewind the cursor to the beginning of the file" />
+                                      <option name="myReplacementLength" value="19" />
+                                      <option name="myIndex" value="3" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="4" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="17" />
+                                      <option name="replacementLength" value="23" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" value="Read the file and return a list of lines (each line is an element of the list)" />
+                                      <option name="line" value="17" />
+                                      <option name="start" value="8" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="fileHandler.readlines()" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Read the file and return a list of lines (each line is an element of the list)" />
+                                      <option name="myReplacementLength" value="23" />
+                                      <option name="myIndex" value="4" />
+                                    </TaskWindow>
+                                  </list>
+                                </option>
+                                <option name="myIndex" value="4" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="4" />
+                    </Task>
+                  </list>
+                </option>
+                <option name="myIndex" value="2" />
+                <option name="myTasksMap">
+                  <map>
+                    <entry key="task1">
+                      <value>
+                        <Task>
+                          <option name="index" value="1" />
+                          <option name="name" value="Read and Print" />
+                          <option name="task_files">
+                            <map>
+                              <entry key="console1.py">
+                                <value>
+                                  <TaskFile>
+                                    <option name="task_windows">
+                                      <list>
+                                        <TaskWindow>
+                                          <option name="index" value="1" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="3" />
+                                          <option name="replacementLength" value="26" />
+                                          <option name="start" value="12" />
+                                          <option name="taskText" value="Ask the user her/his name" />
+                                          <option name="line" value="3" />
+                                          <option name="start" value="12" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="input(&quot;Enter your name: &quot;)" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Ask the user her/his name" />
+                                          <option name="myReplacementLength" value="26" />
+                                          <option name="myIndex" value="1" />
+                                        </TaskWindow>
+                                        <TaskWindow>
+                                          <option name="index" value="2" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="4" />
+                                          <option name="replacementLength" value="25" />
+                                          <option name="start" value="11" />
+                                          <option name="taskText" value="Ask the user her/his age" />
+                                          <option name="line" value="4" />
+                                          <option name="start" value="11" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="input(&quot;Enter your age: &quot;)" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Ask the user her/his age" />
+                                          <option name="myReplacementLength" value="25" />
+                                          <option name="myIndex" value="2" />
+                                        </TaskWindow>
+                                        <TaskWindow>
+                                          <option name="index" value="3" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="5" />
+                                          <option name="replacementLength" value="25" />
+                                          <option name="start" value="11" />
+                                          <option name="taskText" value="Ask the user her/his sex" />
+                                          <option name="line" value="5" />
+                                          <option name="start" value="11" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="input(&quot;Enter your sex: &quot;)" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Ask the user her/his sex" />
+                                          <option name="myReplacementLength" value="25" />
+                                          <option name="myIndex" value="3" />
+                                        </TaskWindow>
+                                        <TaskWindow>
+                                          <option name="index" value="4" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="6" />
+                                          <option name="replacementLength" value="20" />
+                                          <option name="start" value="6" />
+                                          <option name="taskText" value="Print &quot;Hello &lt;your_name&gt;&quot;" />
+                                          <option name="line" value="6" />
+                                          <option name="start" value="6" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="&quot;Hello &quot; + your_name" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Print &quot;Hello &lt;your_name&gt;&quot;" />
+                                          <option name="myReplacementLength" value="20" />
+                                          <option name="myIndex" value="4" />
+                                        </TaskWindow>
+                                        <TaskWindow>
+                                          <option name="index" value="5" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="7" />
+                                          <option name="replacementLength" value="67" />
+                                          <option name="start" value="6" />
+                                          <option name="taskText" value="Print &quot;&quot;You are &lt;your_age&gt; years old and you are a &lt;your_sex&gt;&quot;" />
+                                          <option name="line" value="7" />
+                                          <option name="start" value="6" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="&quot;You are %d years old&quot; % int(your_age)" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Print &quot;&quot;You are &lt;your_age&gt; years old and you are a &lt;your_sex&gt;&quot;" />
+                                          <option name="myReplacementLength" value="67" />
+                                          <option name="myIndex" value="5" />
+                                        </TaskWindow>
+                                      </list>
+                                    </option>
+                                    <option name="myIndex" value="1" />
+                                  </TaskFile>
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="myIndex" value="1" />
+                        </Task>
+                      </value>
+                    </entry>
+                    <entry key="task2">
+                      <value>
+                        <Task>
+                          <option name="index" value="2" />
+                          <option name="name" value="Multiplication table" />
+                          <option name="task_files">
+                            <map>
+                              <entry key="console2.py">
+                                <value>
+                                  <TaskFile>
+                                    <option name="task_windows">
+                                      <list>
+                                        <TaskWindow>
+                                          <option name="index" value="1" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="0" />
+                                          <option name="replacementLength" value="89" />
+                                          <option name="start" value="0" />
+                                          <option name="taskText" value="Ask user to input a number" />
+                                          <option name="line" value="0" />
+                                          <option name="start" value="0" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="input(&quot;Which multiplication table you want to print out? &quot;)" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Ask user to input a number" />
+                                          <option name="myReplacementLength" value="89" />
+                                          <option name="myIndex" value="1" />
+                                        </TaskWindow>
+                                        <TaskWindow>
+                                          <option name="index" value="2" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="5" />
+                                          <option name="replacementLength" value="86" />
+                                          <option name="start" value="0" />
+                                          <option name="taskText" value="Print out the multiplication table using a loop" />
+                                          <option name="line" value="5" />
+                                          <option name="start" value="0" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="    for i in range(0, 10):&#10;        print('| %d x %d = %d |' % (number, i, number * i))" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Print out the multiplication table using a loop" />
+                                          <option name="myReplacementLength" value="86" />
+                                          <option name="myIndex" value="2" />
+                                        </TaskWindow>
+                                      </list>
+                                    </option>
+                                    <option name="myIndex" value="2" />
+                                  </TaskFile>
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="myIndex" value="2" />
+                        </Task>
+                      </value>
+                    </entry>
+                    <entry key="task3">
+                      <value>
+                        <Task>
+                          <option name="index" value="3" />
+                          <option name="name" value="Multiplication table with formatting" />
+                          <option name="task_files">
+                            <map>
+                              <entry key="console3.py">
+                                <value>
+                                  <TaskFile>
+                                    <option name="task_windows">
+                                      <list>
+                                        <TaskWindow>
+                                          <option name="index" value="1" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="7" />
+                                          <option name="replacementLength" value="87" />
+                                          <option name="start" value="0" />
+                                          <option name="taskText" value="Print out the multiplication table using a loop" />
+                                          <option name="line" value="7" />
+                                          <option name="start" value="0" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="    for i in range(0, 10):&#10;        print('| %d x %d = %2d |' % (number, i, number * i))" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Print out the multiplication table using a loop" />
+                                          <option name="myReplacementLength" value="87" />
+                                          <option name="myIndex" value="1" />
+                                        </TaskWindow>
+                                      </list>
+                                    </option>
+                                    <option name="myIndex" value="3" />
+                                  </TaskFile>
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="myIndex" value="3" />
+                        </Task>
+                      </value>
+                    </entry>
+                    <entry key="task4">
+                      <value>
+                        <Task>
+                          <option name="index" value="4" />
+                          <option name="name" value="Read a file" />
+                          <option name="task_files">
+                            <map>
+                              <entry key="console4.py">
+                                <value>
+                                  <TaskFile>
+                                    <option name="task_windows">
+                                      <list>
+                                        <TaskWindow>
+                                          <option name="index" value="1" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="3" />
+                                          <option name="replacementLength" value="143" />
+                                          <option name="start" value="15" />
+                                          <option name="taskText" value="Ask for a file path until a valid file is given" />
+                                          <option name="line" value="3" />
+                                          <option name="start" value="15" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="input('Gimme the file path: ')&#10;    if os.path.isfile(filepath):&#10;        break&#10;    else:&#10;        print('I cannot find the file &quot;%s&quot;' % filepath)" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Ask for a file path until a valid file is given" />
+                                          <option name="myReplacementLength" value="143" />
+                                          <option name="myIndex" value="1" />
+                                        </TaskWindow>
+                                        <TaskWindow>
+                                          <option name="index" value="2" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="10" />
+                                          <option name="replacementLength" value="18" />
+                                          <option name="start" value="10" />
+                                          <option name="taskText" value="Read full content of the file" />
+                                          <option name="line" value="10" />
+                                          <option name="start" value="10" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="fileHandler.read()" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Read full content of the file" />
+                                          <option name="myReplacementLength" value="18" />
+                                          <option name="myIndex" value="2" />
+                                        </TaskWindow>
+                                        <TaskWindow>
+                                          <option name="index" value="3" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="15" />
+                                          <option name="replacementLength" value="19" />
+                                          <option name="start" value="0" />
+                                          <option name="taskText" value="Rewind the cursor to the beginning of the file" />
+                                          <option name="line" value="15" />
+                                          <option name="start" value="0" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="fileHandler.seek(0)" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Rewind the cursor to the beginning of the file" />
+                                          <option name="myReplacementLength" value="19" />
+                                          <option name="myIndex" value="3" />
+                                        </TaskWindow>
+                                        <TaskWindow>
+                                          <option name="index" value="4" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="17" />
+                                          <option name="replacementLength" value="23" />
+                                          <option name="start" value="8" />
+                                          <option name="taskText" value="Read the file and return a list of lines (each line is an element of the list)" />
+                                          <option name="line" value="17" />
+                                          <option name="start" value="8" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="fileHandler.readlines()" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Read the file and return a list of lines (each line is an element of the list)" />
+                                          <option name="myReplacementLength" value="23" />
+                                          <option name="myIndex" value="4" />
+                                        </TaskWindow>
+                                      </list>
+                                    </option>
+                                    <option name="myIndex" value="4" />
+                                  </TaskFile>
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="myIndex" value="4" />
                         </Task>
                       </value>
                     </entry>

@@ -17,24 +17,7 @@ def minAndMax(the_list):
     :param list: the input list
     :return:
     """
-    min = None
-    max = None
-
-    for item in the_list:
-        if type(item) == list:
-            [min, max] = minAndMax(item)
-        else:
-            if min is None:  # If min is not set yet, it's None and cannot be compared to a number
-                min = item
-            elif min > item:
-                min = item
-
-            if max is None:  # If max is not set yet, it's None and cannot be compared to a number
-                max = item
-            elif max < item:
-                max = item
-
-    return [min, max]
+Find the smallest and largest numbers in the list
 
 
 [min1, max1] = minAndMax(list1)

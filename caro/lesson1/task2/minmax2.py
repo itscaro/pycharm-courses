@@ -17,25 +17,9 @@ def minAndMax(the_list):
     :param the_list: the input list
     :return:
     """
-    min = None
-    max = None
+Use one function only
 
-    for item in the_list:
-        if min is None:  # If min is not set yet, it's None and cannot be compared to a number
-            min = item
-        elif min > item:
-            min = item
-
-        if max is None:  # If max is not set yet, it's None and cannot be compared to a number
-            max = item
-        elif max < item:
-            max = item
-
-    return [min, max]
-
-[min1, max1] = minAndMax(list1)
-[min2, max2] = minAndMax(list2)
-[min3, max3] = minAndMax(list3)
+Using minAndMax() to find min and max numbers of these lists
 
 message = "List %d : %s \n min is %f and max is %f"
 print(message % (1, list1, min1, max1))
