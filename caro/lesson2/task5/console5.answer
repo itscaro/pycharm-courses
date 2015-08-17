@@ -1,0 +1,27 @@
+import csv
+import os.path
+
+while True:
+    filepath = input('Gimme the file path: ')
+    if os.path.isfile(filepath):
+        break
+    else:
+        print('I cannot find the file "%s"' % filepath)
+
+with open(filepath) as csvfile:
+    # Use the keyword-argument delimiter=';' to set the field delimiter to ";"
+    # To use a keyword-argument, you need to name the argument when passing it to the function/method, for example:
+    # func(delimiter=";")
+    reader = csv.reader(csvfile, delimiter=';')
+    for row in reader:
+        print(row)
+
+# You can replace
+#
+# with open(filepath) as csvfile:
+#
+# with
+#
+# csvfile = open(filepath)
+#
+# but remeber to close the file!

@@ -685,6 +685,110 @@
                   </option>
                   <option name="myIndex" value="4" />
                 </Task>
+                <Task>
+                  <option name="index" value="5" />
+                  <option name="name" value="Read a CSV file" />
+                  <option name="task_files">
+                    <map>
+                      <entry key="console5.py">
+                        <value>
+                          <TaskFile>
+                            <option name="task_windows">
+                              <list>
+                                <TaskWindow>
+                                  <option name="index" value="1" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="14" />
+                                  <option name="replacementLength" value="76" />
+                                  <option name="start" value="13" />
+                                  <option name="taskText" value="Read the &quot;csvfile&quot; file object with csv.reader(), remember to use the delimiter &quot;;&quot;" />
+                                  <option name="line" value="14" />
+                                  <option name="start" value="13" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="csv.reader(csvfile, delimiter=';')&#10;    for row in reader:&#10;        print(row)" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Read the &quot;csvfile&quot; file object with csv.reader(), remember to use the delimiter &quot;;&quot;" />
+                                  <option name="myReplacementLength" value="76" />
+                                  <option name="myIndex" value="1" />
+                                </TaskWindow>
+                              </list>
+                            </option>
+                            <option name="myIndex" value="5" />
+                          </TaskFile>
+                        </value>
+                      </entry>
+                    </map>
+                  </option>
+                  <option name="myIndex" value="5" />
+                </Task>
+                <Task>
+                  <option name="index" value="6" />
+                  <option name="name" value="Write a CSV file" />
+                  <option name="task_files">
+                    <map>
+                      <entry key="console6.py">
+                        <value>
+                          <TaskFile>
+                            <option name="task_windows">
+                              <list>
+                                <TaskWindow>
+                                  <option name="index" value="1" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="11" />
+                                  <option name="replacementLength" value="59" />
+                                  <option name="start" value="13" />
+                                  <option name="taskText" value="Ger a CSV writer" />
+                                  <option name="line" value="11" />
+                                  <option name="start" value="13" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="csv.writer(fileHandler, delimiter=';', lineterminator='\n')" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Ger a CSV writer" />
+                                  <option name="myReplacementLength" value="59" />
+                                  <option name="myIndex" value="1" />
+                                </TaskWindow>
+                                <TaskWindow>
+                                  <option name="index" value="2" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="12" />
+                                  <option name="replacementLength" value="26" />
+                                  <option name="start" value="11" />
+                                  <option name="taskText" value="Write the header line with a list of &quot;Key&quot; and &quot;Value&quot; as items" />
+                                  <option name="line" value="12" />
+                                  <option name="start" value="11" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="writerow([&quot;Key&quot;, &quot;Value&quot;])" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Write the header line with a list of &quot;Key&quot; and &quot;Value&quot; as items" />
+                                  <option name="myReplacementLength" value="26" />
+                                  <option name="myIndex" value="2" />
+                                </TaskWindow>
+                                <TaskWindow>
+                                  <option name="index" value="3" />
+                                  <option name="length" value="0" />
+                                  <option name="line" value="13" />
+                                  <option name="replacementLength" value="81" />
+                                  <option name="start" value="4" />
+                                  <option name="taskText" value="Write into the CSV file" />
+                                  <option name="line" value="13" />
+                                  <option name="start" value="4" />
+                                  <option name="hint" />
+                                  <option name="possible_answer" value="i = 0&#10;    for item in the_list:&#10;        i += 1&#10;        writer.writerow([i, item])" />
+                                  <option name="length" value="0" />
+                                  <option name="myTaskText" value="Write into the CSV file" />
+                                  <option name="myReplacementLength" value="81" />
+                                  <option name="myIndex" value="3" />
+                                </TaskWindow>
+                              </list>
+                            </option>
+                            <option name="myIndex" value="6" />
+                          </TaskFile>
+                        </value>
+                      </entry>
+                    </map>
+                  </option>
+                  <option name="myIndex" value="6" />
+                </Task>
               </list>
             </option>
             <option name="myIndex" value="2" />
@@ -975,6 +1079,118 @@
                         </map>
                       </option>
                       <option name="myIndex" value="4" />
+                    </Task>
+                  </value>
+                </entry>
+                <entry key="task5">
+                  <value>
+                    <Task>
+                      <option name="index" value="5" />
+                      <option name="name" value="Read a CSV file" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="console5.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="14" />
+                                      <option name="replacementLength" value="76" />
+                                      <option name="start" value="13" />
+                                      <option name="taskText" value="Read the &quot;csvfile&quot; file object with csv.reader(), remember to use the delimiter &quot;;&quot;" />
+                                      <option name="line" value="14" />
+                                      <option name="start" value="13" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="csv.reader(csvfile, delimiter=';')&#10;    for row in reader:&#10;        print(row)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Read the &quot;csvfile&quot; file object with csv.reader(), remember to use the delimiter &quot;;&quot;" />
+                                      <option name="myReplacementLength" value="76" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                  </list>
+                                </option>
+                                <option name="myIndex" value="5" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="5" />
+                    </Task>
+                  </value>
+                </entry>
+                <entry key="task6">
+                  <value>
+                    <Task>
+                      <option name="index" value="6" />
+                      <option name="name" value="Write a CSV file" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="console6.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="11" />
+                                      <option name="replacementLength" value="59" />
+                                      <option name="start" value="13" />
+                                      <option name="taskText" value="Ger a CSV writer" />
+                                      <option name="line" value="11" />
+                                      <option name="start" value="13" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="csv.writer(fileHandler, delimiter=';', lineterminator='\n')" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Ger a CSV writer" />
+                                      <option name="myReplacementLength" value="59" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="2" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="12" />
+                                      <option name="replacementLength" value="26" />
+                                      <option name="start" value="11" />
+                                      <option name="taskText" value="Write the header line with a list of &quot;Key&quot; and &quot;Value&quot; as items" />
+                                      <option name="line" value="12" />
+                                      <option name="start" value="11" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="writerow([&quot;Key&quot;, &quot;Value&quot;])" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Write the header line with a list of &quot;Key&quot; and &quot;Value&quot; as items" />
+                                      <option name="myReplacementLength" value="26" />
+                                      <option name="myIndex" value="2" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="3" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="13" />
+                                      <option name="replacementLength" value="81" />
+                                      <option name="start" value="4" />
+                                      <option name="taskText" value="Write into the CSV file" />
+                                      <option name="line" value="13" />
+                                      <option name="start" value="4" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="i = 0&#10;    for item in the_list:&#10;        i += 1&#10;        writer.writerow([i, item])" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Write into the CSV file" />
+                                      <option name="myReplacementLength" value="81" />
+                                      <option name="myIndex" value="3" />
+                                    </TaskWindow>
+                                  </list>
+                                </option>
+                                <option name="myIndex" value="6" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="6" />
                     </Task>
                   </value>
                 </entry>
@@ -1672,6 +1888,110 @@
                       </option>
                       <option name="myIndex" value="4" />
                     </Task>
+                    <Task>
+                      <option name="index" value="5" />
+                      <option name="name" value="Read a CSV file" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="console5.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="14" />
+                                      <option name="replacementLength" value="76" />
+                                      <option name="start" value="13" />
+                                      <option name="taskText" value="Read the &quot;csvfile&quot; file object with csv.reader(), remember to use the delimiter &quot;;&quot;" />
+                                      <option name="line" value="14" />
+                                      <option name="start" value="13" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="csv.reader(csvfile, delimiter=';')&#10;    for row in reader:&#10;        print(row)" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Read the &quot;csvfile&quot; file object with csv.reader(), remember to use the delimiter &quot;;&quot;" />
+                                      <option name="myReplacementLength" value="76" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                  </list>
+                                </option>
+                                <option name="myIndex" value="5" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="5" />
+                    </Task>
+                    <Task>
+                      <option name="index" value="6" />
+                      <option name="name" value="Write a CSV file" />
+                      <option name="task_files">
+                        <map>
+                          <entry key="console6.py">
+                            <value>
+                              <TaskFile>
+                                <option name="task_windows">
+                                  <list>
+                                    <TaskWindow>
+                                      <option name="index" value="1" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="11" />
+                                      <option name="replacementLength" value="59" />
+                                      <option name="start" value="13" />
+                                      <option name="taskText" value="Ger a CSV writer" />
+                                      <option name="line" value="11" />
+                                      <option name="start" value="13" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="csv.writer(fileHandler, delimiter=';', lineterminator='\n')" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Ger a CSV writer" />
+                                      <option name="myReplacementLength" value="59" />
+                                      <option name="myIndex" value="1" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="2" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="12" />
+                                      <option name="replacementLength" value="26" />
+                                      <option name="start" value="11" />
+                                      <option name="taskText" value="Write the header line with a list of &quot;Key&quot; and &quot;Value&quot; as items" />
+                                      <option name="line" value="12" />
+                                      <option name="start" value="11" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="writerow([&quot;Key&quot;, &quot;Value&quot;])" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Write the header line with a list of &quot;Key&quot; and &quot;Value&quot; as items" />
+                                      <option name="myReplacementLength" value="26" />
+                                      <option name="myIndex" value="2" />
+                                    </TaskWindow>
+                                    <TaskWindow>
+                                      <option name="index" value="3" />
+                                      <option name="length" value="0" />
+                                      <option name="line" value="13" />
+                                      <option name="replacementLength" value="81" />
+                                      <option name="start" value="4" />
+                                      <option name="taskText" value="Write into the CSV file" />
+                                      <option name="line" value="13" />
+                                      <option name="start" value="4" />
+                                      <option name="hint" />
+                                      <option name="possible_answer" value="i = 0&#10;    for item in the_list:&#10;        i += 1&#10;        writer.writerow([i, item])" />
+                                      <option name="length" value="0" />
+                                      <option name="myTaskText" value="Write into the CSV file" />
+                                      <option name="myReplacementLength" value="81" />
+                                      <option name="myIndex" value="3" />
+                                    </TaskWindow>
+                                  </list>
+                                </option>
+                                <option name="myIndex" value="6" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="myIndex" value="6" />
+                    </Task>
                   </list>
                 </option>
                 <option name="myIndex" value="2" />
@@ -1962,6 +2282,118 @@
                             </map>
                           </option>
                           <option name="myIndex" value="4" />
+                        </Task>
+                      </value>
+                    </entry>
+                    <entry key="task5">
+                      <value>
+                        <Task>
+                          <option name="index" value="5" />
+                          <option name="name" value="Read a CSV file" />
+                          <option name="task_files">
+                            <map>
+                              <entry key="console5.py">
+                                <value>
+                                  <TaskFile>
+                                    <option name="task_windows">
+                                      <list>
+                                        <TaskWindow>
+                                          <option name="index" value="1" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="14" />
+                                          <option name="replacementLength" value="76" />
+                                          <option name="start" value="13" />
+                                          <option name="taskText" value="Read the &quot;csvfile&quot; file object with csv.reader(), remember to use the delimiter &quot;;&quot;" />
+                                          <option name="line" value="14" />
+                                          <option name="start" value="13" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="csv.reader(csvfile, delimiter=';')&#10;    for row in reader:&#10;        print(row)" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Read the &quot;csvfile&quot; file object with csv.reader(), remember to use the delimiter &quot;;&quot;" />
+                                          <option name="myReplacementLength" value="76" />
+                                          <option name="myIndex" value="1" />
+                                        </TaskWindow>
+                                      </list>
+                                    </option>
+                                    <option name="myIndex" value="5" />
+                                  </TaskFile>
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="myIndex" value="5" />
+                        </Task>
+                      </value>
+                    </entry>
+                    <entry key="task6">
+                      <value>
+                        <Task>
+                          <option name="index" value="6" />
+                          <option name="name" value="Write a CSV file" />
+                          <option name="task_files">
+                            <map>
+                              <entry key="console6.py">
+                                <value>
+                                  <TaskFile>
+                                    <option name="task_windows">
+                                      <list>
+                                        <TaskWindow>
+                                          <option name="index" value="1" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="11" />
+                                          <option name="replacementLength" value="59" />
+                                          <option name="start" value="13" />
+                                          <option name="taskText" value="Ger a CSV writer" />
+                                          <option name="line" value="11" />
+                                          <option name="start" value="13" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="csv.writer(fileHandler, delimiter=';', lineterminator='\n')" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Ger a CSV writer" />
+                                          <option name="myReplacementLength" value="59" />
+                                          <option name="myIndex" value="1" />
+                                        </TaskWindow>
+                                        <TaskWindow>
+                                          <option name="index" value="2" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="12" />
+                                          <option name="replacementLength" value="26" />
+                                          <option name="start" value="11" />
+                                          <option name="taskText" value="Write the header line with a list of &quot;Key&quot; and &quot;Value&quot; as items" />
+                                          <option name="line" value="12" />
+                                          <option name="start" value="11" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="writerow([&quot;Key&quot;, &quot;Value&quot;])" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Write the header line with a list of &quot;Key&quot; and &quot;Value&quot; as items" />
+                                          <option name="myReplacementLength" value="26" />
+                                          <option name="myIndex" value="2" />
+                                        </TaskWindow>
+                                        <TaskWindow>
+                                          <option name="index" value="3" />
+                                          <option name="length" value="0" />
+                                          <option name="line" value="13" />
+                                          <option name="replacementLength" value="81" />
+                                          <option name="start" value="4" />
+                                          <option name="taskText" value="Write into the CSV file" />
+                                          <option name="line" value="13" />
+                                          <option name="start" value="4" />
+                                          <option name="hint" />
+                                          <option name="possible_answer" value="i = 0&#10;    for item in the_list:&#10;        i += 1&#10;        writer.writerow([i, item])" />
+                                          <option name="length" value="0" />
+                                          <option name="myTaskText" value="Write into the CSV file" />
+                                          <option name="myReplacementLength" value="81" />
+                                          <option name="myIndex" value="3" />
+                                        </TaskWindow>
+                                      </list>
+                                    </option>
+                                    <option name="myIndex" value="6" />
+                                  </TaskFile>
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="myIndex" value="6" />
                         </Task>
                       </value>
                     </entry>

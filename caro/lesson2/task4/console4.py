@@ -14,3 +14,6 @@ Rewind the cursor to the beginning of the file
 lines = Read the file and return a list of lines (each line is an element of the list)
 print("The file's lines are:")
 print(lines)
+
+# Close the file!
+fileHandler.close()

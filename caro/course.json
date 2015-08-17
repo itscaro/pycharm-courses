@@ -193,6 +193,48 @@
               ]
             }
           }
+        },
+        {
+          "name": "Read a CSV file",
+          "task_files": {
+            "console5.py": {
+              "task_windows": [
+                {
+                  "line": 14,
+                  "start": 13,
+                  "possible_answer": "csv.reader(csvfile, delimiter\u003d\u0027;\u0027)\n    for row in reader:\n        print(row)",
+                  "length": 83
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Write a CSV file",
+          "task_files": {
+            "console6.py": {
+              "task_windows": [
+                {
+                  "line": 11,
+                  "start": 13,
+                  "possible_answer": "csv.writer(fileHandler, delimiter\u003d\u0027;\u0027, lineterminator\u003d\u0027\\n\u0027)",
+                  "length": 16
+                },
+                {
+                  "line": 12,
+                  "start": 11,
+                  "possible_answer": "writerow([\"Key\", \"Value\"])",
+                  "length": 63
+                },
+                {
+                  "line": 13,
+                  "start": 4,
+                  "possible_answer": "i \u003d 0\n    for item in the_list:\n        i +\u003d 1\n        writer.writerow([i, item])",
+                  "length": 23
+                }
+              ]
+            }
+          }
         }
       ]
     }

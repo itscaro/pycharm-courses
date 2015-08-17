@@ -18,3 +18,6 @@ fileHandler.seek(0)
 lines = fileHandler.readlines()
 print("The file's lines are:")
 print(lines)
+
+# Close the file!
+fileHandler.close()

@@ -1,0 +1,28 @@
+<html>
+In the last task, we saw:
+<pre>
+fileHandler = open([path to the file])
+fileHandler.read()
+fileHandler.close()
+</pre>
+
+In Python, you can use "with" statement which takes responsible of closing the file for you, so you do not need to explicitly
+call the method close() of the file object, as following:
+<pre>
+with open([path to the file]) as fileHandler:
+    fileHandler.read()
+</pre>
+
+It's a better practice to use "with" statement!
+<br>
+
+Read the file "console5.csv" with csv.reader() in csv package and print out:
+<pre>
+['Date', 'Value']
+['18/01/2015', '1']
+['18/02/2015', '2']
+['18/03/2015', '3']
+['18/04/2015', '4']
+['18/05/2015', '5']
+</pre>
+</html>
